@@ -1,0 +1,8 @@
+matrixi m := input();
+float threshold := 1e-6;
+float norm_diff := mag(m);
+while(norm_diff>threshold)do{
+    m := m * m;
+    norm_diff := mag(m) - threshold;
+};
+print(norm_diff);

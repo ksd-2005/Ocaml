@@ -1,0 +1,2 @@
+matrixi a := input();
+print(transpose(a));

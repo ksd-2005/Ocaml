@@ -1,0 +1,3 @@
+matrixi A := input();
+vectori b := input();
+print(A*b);

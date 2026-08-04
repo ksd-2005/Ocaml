@@ -1,0 +1,7 @@
+vectorf v := 4
+[3.14, -1.68, 2.71, 0.33];
+vectorf tp := 4 [1.0,1.0,1.0,1.0];
+float ans := 0.0;
+ans:= v*tp;
+ans:=ans*2.5;
+print(ans);

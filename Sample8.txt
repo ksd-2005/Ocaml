@@ -1,0 +1,12 @@
+matrixf A := input();
+float x := trace(A);
+float y := det(A);
+float d := x*x - 4*y;
+if(d>=0.0)then{
+    float e1 := (trace+sqrt(d))/.2.0;
+    float e2 := (trace-sqrt(d))/.2.0;
+    print(e1);
+    print(e2);
+}else{
+    print("EigenValues are Complex");
+}

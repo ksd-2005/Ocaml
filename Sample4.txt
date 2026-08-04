@@ -1,0 +1,6 @@
+matrixf A = input();
+if(det(A)!=0.0)then{
+    print(inv(A));
+}else{
+    print("matrix not invertible")
+}

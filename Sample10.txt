@@ -1,0 +1,4 @@
+matrixi A := input();
+float ans := 0.0;
+ans := mag(A);
+print(ans);

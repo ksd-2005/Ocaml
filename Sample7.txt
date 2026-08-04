@@ -1,0 +1,9 @@
+matrixf A = input();
+vectorf x = input();
+vectorf b = input();
+if(det(A)!=0.0)then{
+    matrixf A_inverse = inv(A);
+    print(A_inverse*b);
+}else{
+    print("Matrix A is not invertible");
+}

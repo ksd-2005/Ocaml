@@ -1,0 +1,4 @@
+matrixi A := input();
+matrixi B := input();
+matrixi C := A+B;
+print(C);

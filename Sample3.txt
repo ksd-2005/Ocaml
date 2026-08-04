@@ -1,0 +1,2 @@
+matrixi A = input();
+print(det(A));
